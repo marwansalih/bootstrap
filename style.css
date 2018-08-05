@@ -1,0 +1,138 @@
+body{
+    height: 2000px;
+}
+
+
+
+
+/* slid show */
+  img{
+     opacity: 0.6; 
+     height: 550px;
+  }  
+  .img-container {
+      background-color:#000000a4; 
+      position: relative;
+     
+    }
+    /* nav */
+ .nav1 {
+    position:absolute;
+    z-index:1;}
+
+/* button */
+ .button1{
+    position: absolute;
+    top: 280px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+ }
+ 
+ .btn-lg{
+     border-radius: 20px
+ }
+ /* text over header */
+ h2{
+     color:#fff;
+     font-weight: bold
+ }
+ .lead1{
+     color: #fff;
+     display: block;
+ }
+ /* About */
+ .fa{
+    font-size: 30px ;
+    border: 2px solid #0069D9;
+    color: #0069D9;
+    border-radius: 70px;
+    padding: 23px 23px 23px 23px;
+  }
+  .pargraph{
+      margin:20px;
+  }
+  h3{
+    padding-top: 50px;
+  }
+  .teamimg{
+    padding-top: 75px;
+    padding-left: 35px;
+    width: 438px;
+    height: 500px;
+  }
+ 
+  
+/* FACt */
+.num{
+    text-align: center;
+    font-size: 30px;
+    color:#0069D9;
+}
+section{
+    background-color:#F8F8F8;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center
+}
+ div .text-center h2 {
+    color: #212529;
+}
+.team h3{
+    margin-top: 50px;
+}
+
+.team .row{
+    margin-top: 30px;
+}
+
+.team img{ 
+     height: 200px;
+     width: 200px;
+}
+.team{
+    text-align: center;
+}
+/* FORM */
+.fas{
+    font-size: 30px ;
+    border: 2px solid #0069D9;
+    color: #0069D9;
+    border-radius: 70px;
+    padding: 10px ;
+  }
+  
+form{
+    
+    margin-right: 200px;
+    padding: 10px;
+    text-align: center;
+}
+
+input{
+    width: 400px;
+    height:30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+textarea{
+    height:130px;
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+#submit{
+    height:40px;
+    width: 160px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    background-color: #0069D9;
+    color:white;
+    border-bottom-color:#0069D9;
+}
